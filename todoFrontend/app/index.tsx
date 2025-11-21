@@ -153,46 +153,50 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: 50,
     paddingHorizontal: 20,
-    backgroundColor: "#b79384",
+    backgroundColor: "#452829",
   },
   header: {
     fontSize: 25,
     fontWeight: "bold",
     marginBottom: 20,
     textAlign: "center",
+    color:"#F3E8DF",
   },
   inputContainer: {
     flexDirection: "row",
     gap: 10,
     marginBottom: 20,
+    color:"#F3E8DF"
   },
   input: {
     flex: 1,
-    backgroundColor: "white",
+    backgroundColor: "#E8D1C5",
     padding: 12,
     borderRadius: 8,
     fontSize: 16,
+    color:"#452829"
   },
   btn: {
-    backgroundColor: "black",
+    backgroundColor: "#57595B",
     paddingHorizontal: 18,
     paddingVertical: 12,
     borderRadius: 8,
   },
   btnText: {
-    color: "white",
+    color: "#F3E8DF",
     fontWeight: "bold",
   },
   todoItem: {
-    backgroundColor: "white",
-    padding: 10,
+    backgroundColor: "#F3E8DF",
+    padding: 8,
     borderRadius: 12,
     marginBottom: 10,
     flexDirection: "row",
     justifyContent: "space-between",
   },
   todoText: {
-    fontSize: 18,
+    fontSize: 15,
+    color: "#452829",
   },
   completedText: {
     textDecorationLine: "line-through",
