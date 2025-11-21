@@ -5,6 +5,7 @@
 Monolithic or microservices—plays a major role in determining how well an application can grow and perform. 
 Two of the most widely used architectural styles are Monolithic Architecture and Microservices Architecture. While monolithic systems package all components—such as the user interface, business logic, and database—into a single unified application, microservices break an application into smaller, independent services that communicate with each other.
 Both approaches have strengths and limitations, and the decision between them depends on factors such as project size, team structure, scalability needs, and long-term maintenance plans. Understanding the differences between these architectures helps developers and organizations select the best model for their application’s growth and performance requirements.
+
 ---
 
 ## *2. Definitions*

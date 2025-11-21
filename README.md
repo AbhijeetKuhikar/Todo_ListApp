@@ -69,8 +69,9 @@ TodoListAPP
 
 # Backend Setup
 
-open cmd 
+open cmd
 
+- Create Folder todoBackend
 - cd todobackend
 - npm install express mongoose cors dotenv
 - create .env file in backend and create
@@ -89,9 +90,11 @@ open cmd
 
 open cmd 
 
+- Create Frontend by the commands:-
 - npx create-expo-app@latest
 - create a project name as todoFrontend
 - hit "npm run reset-project "This will make the project empty and ready to build with scratch
+- also install axios in *todoFrontend* folder by command- "npm install axios" .
 - install ES7 React, redux extention in Vs Code to expand the functionality of the react Native
 - create or copy the code from todoListAPP/app/index.tsx in your todofrontend folder
 
@@ -105,12 +108,12 @@ Note- In your index.tsx code
 
 # mobile process
 
-- connect the mobile with same wifi as the laptop
+- Connect the mobile with same wifi as the laptop
 - Open Playstore and Download the **"Expo GO"** App
 - After Download scan the QR code from the cmd appears after the command " npx Expo start" while running todofrontend
 - taskes little bit time or some attempt be patient and the app will appear in your mobile screen as the todo App after loading from the ip of the laptop.
 
-- now the user will:
+- Now the user will:
   - create todo by click add button
   - edit todos using edit button
   - delete todos using delete button
