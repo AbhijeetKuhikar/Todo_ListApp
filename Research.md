@@ -24,11 +24,21 @@ In a monolithic system:
 #### *Diagram: Monolithic Architecture*
 
 
-    A[Service A] --> B[Service B]
-    B --> C [Service C]
-    A --> ADB[(DB A)]
-    B --> BDB[(DB B)]
-    C --> CDB[(DB C)]
+       +-----------------------------+
+       |        Monolithic App       |
+       |-----------------------------|
+       |  UI / Frontend Layer        |
+       |-----------------------------|
+       |  Business Logic Layer       |
+       |-----------------------------|
+       |  Data Access Layer          |
+       +-----------------------------+
+                    |
+                    v
+          +-------------------+
+          |   Single Database |
+          +-------------------+
+
 
 
 ---
